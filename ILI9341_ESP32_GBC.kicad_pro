@@ -452,7 +452,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ILI9341_ESP32_GBC_V1.kicad_pro",
+    "filename": "ILI9341_ESP32_GBC.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -490,7 +490,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ILI9341_ESP32_GBC.step",
       "svg": "",
       "vrml": ""
     },
