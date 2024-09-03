@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 37,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -65,7 +65,7 @@
       39,
       40
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "fffffab_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -75,7 +75,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "ILI9341_ESP32_GBC_V1.kicad_prl",
+    "filename": "ILI9341_ESP32_GBC.kicad_prl",
     "version": 3
   },
   "project": {

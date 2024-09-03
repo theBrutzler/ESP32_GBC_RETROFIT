@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.25,
-          "width": 0.25
+          "height": 11.85,
+          "width": 5.1
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -58,12 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "copper_edge_clearance|177442000|72879040|ce73047c-ae26-43ea-bba4-ae15aac3fac3|644b73be-b00f-44c7-ba38-a846e6de78ce",
-        "copper_edge_clearance|177442000|79626528|ce73047c-ae26-43ea-bba4-ae15aac3fac3|398ff988-7bda-449f-a5e6-9b34f0174ff6",
-        "courtyards_overlap|171942523|51344001|1e0523f8-c6dc-47ec-a2a6-cfcbfca5577a|c559d979-ac78-439f-abc1-5123fb3ad781",
-        "starved_thermal|115850000|79220000|345ab84d-7ad0-4600-bd42-5dac866bc51e|975b1a40-676a-4eb4-832e-024ded53a284|F.Cu"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },

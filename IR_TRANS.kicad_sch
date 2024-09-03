@@ -2708,7 +2708,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "4µ7"
 			(at 150.495 76.2 0)
 			(effects
 				(font
@@ -2744,7 +2744,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5673"
+		(property "LCSC" "C69335"
 			(at 149.86 73.66 0)
 			(effects
 				(font

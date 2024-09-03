@@ -1863,6 +1863,12 @@
 		(uuid "90d4d46a-5e99-488e-b5be-b242b775bb8f")
 	)
 	(junction
+		(at 175.26 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "920b25f7-16fa-4597-93aa-7584b91f97d9")
+	)
+	(junction
 		(at 113.665 141.605)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2102,7 +2108,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 93.98) (xy 184.15 93.98)
+			(xy 170.18 93.98) (xy 175.26 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2382,6 +2388,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 104.14) (xy 166.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62984a60-9a33-44ad-89c4-7d95e184e6ad")
+	)
+	(wire
+		(pts
 			(xy 49.53 95.25) (xy 39.37 95.25)
 		)
 		(stroke
@@ -2399,6 +2415,26 @@
 			(type default)
 		)
 		(uuid "65575ea5-aacd-4cb3-9ab6-4bb79c31ad03")
+	)
+	(wire
+		(pts
+			(xy 175.26 101.6) (xy 175.26 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673ae7fd-ce87-4415-9e76-6b10f07dae7e")
+	)
+	(wire
+		(pts
+			(xy 175.26 93.98) (xy 184.15 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a546c94-f1d9-4f9f-8e68-7c8409e46d60")
 	)
 	(wire
 		(pts
@@ -2990,6 +3026,17 @@
 			(justify left bottom)
 		)
 		(uuid "d4726fd8-1b31-4db0-8f65-5b894c0ec34e")
+	)
+	(label "F_GND"
+		(at 166.37 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "025fc493-a563-4877-90fe-b7b278be3a6e")
 	)
 	(label "F_GND"
 		(at 34.925 139.7 0)
@@ -4138,6 +4185,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 175.26 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83cf85cc-e49f-4a5e-9188-7a8ba221853f")
+		(property "Reference" "C3"
+			(at 170.815 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4µ7"
+			(at 170.815 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 176.2252 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V"
+			(at 175.26 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C69335"
+			(at 175.26 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SOURCED" "ok"
+			(at 175.26 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8daaa93f-16fe-4495-87c0-684b359a199c")
+		)
+		(pin "2"
+			(uuid "098a26af-1947-40b3-94b8-d20511fe1d43")
+		)
+		(instances
+			(project "ILI9341_ESP32_GBC"
+				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce/d975582f-4378-40f0-9d4d-51d3304967f8"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 58.42 133.35 0)
 		(unit 1)
@@ -4240,7 +4374,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "4µ7"
 			(at 182.88 79.375 0)
 			(effects
 				(font
@@ -4276,7 +4410,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5673"
+		(property "LCSC" "C69335"
 			(at 185.42 78.74 0)
 			(effects
 				(font
@@ -5028,7 +5162,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "4µ7"
 			(at 86.995 150.495 0)
 			(effects
 				(font
@@ -5064,7 +5198,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5673"
+		(property "LCSC" "C69335"
 			(at 86.995 147.955 0)
 			(effects
 				(font
@@ -5183,7 +5317,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "4µ7"
 			(at 93.345 150.495 0)
 			(effects
 				(font
@@ -5219,7 +5353,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5673"
+		(property "LCSC" "C69335"
 			(at 93.345 147.955 0)
 			(effects
 				(font

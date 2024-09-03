@@ -2923,260 +2923,6 @@
 				)
 			)
 		)
-		(symbol "LED:WS2812B"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 5.08 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "WS2812B"
-				(at 1.27 -5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-				(at 2.54 -9.525 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "RGB LED with integrated controller"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "RGB LED NeoPixel addressable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "WS2812B_0_0"
-				(text "RGB"
-					(at 2.286 -4.191 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "WS2812B_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "WS2812B_1_1"
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Regulator_Switching:TLV62568DBV"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5624,6 +5370,257 @@
 				)
 			)
 		)
+		(symbol "easyeda2kicad:TM-2023"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TM-2023"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SW-SMD_TM-2023-1"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Multi-Directional-Switches_XKB-Enterprise-TM-2023_C318951.html"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C318951"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TM-2023_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -1.27 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.78 2.03) (xy -1.27 1.52) (xy -0.76 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 5.08 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 5.08 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -5.08 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 5.08)
+					(name "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "easyeda2kicad:TPS61028DRCR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6215,267 +6212,6 @@
 				)
 			)
 		)
-		(symbol "theBrutzler:02FVS3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "02FVS3"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "TheBrutzlers_Lib:02FVS3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2207281230_Mitsumi-Electric-SIQ-02FVS3_C2925423.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Rotary and Push Encoder"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C2925423"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Encoder Incremental Rotary Button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "02FVS3_0_1"
-				(arc
-					(start -1.27 2.54)
-					(mid -0.898 1.642)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.0508 1.2192) (xy -0.4572 0.9652)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -0.3048 1.7272)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.5908) (xy 1.1176 2.5908)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy -0.3556 4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.0508 3.81) (xy -0.3048 3.4036)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.0988) (xy 1.1684 2.5908)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.1684 2.5908) (xy 0.8128 2.1336)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 4.5791)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.81)
-					(mid -0.898 3.438)
-					(end -1.27 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "02FVS3_1_1"
-				(pin open_collector line
-					(at 6.35 5.08 180)
-					(length 2.4)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 6.35 0 180)
-					(length 2.4)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -3.81 90)
-					(length 1.7)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 6.35 2.54 180)
-					(length 1.7)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 219.075 32.385)
@@ -6526,6 +6262,12 @@
 		(uuid "2275b0d5-1230-497a-9739-fe4d1621e06e")
 	)
 	(junction
+		(at 82.55 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "299a9863-797c-440d-a542-520da02917fd")
+	)
+	(junction
 		(at 199.39 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6550,6 +6292,12 @@
 		(uuid "2e4d48b1-3360-4c55-a9a7-955a3b22f219")
 	)
 	(junction
+		(at 157.48 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ea17610-1c73-48ef-ad05-9bb2479fd0d7")
+	)
+	(junction
 		(at 157.48 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6560,12 +6308,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3819b85f-c78c-4dd2-9299-03008280fb0c")
-	)
-	(junction
-		(at 177.8 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43ad416f-c470-44f2-935a-d661da1fbdeb")
 	)
 	(junction
 		(at 168.91 99.06)
@@ -6616,6 +6358,12 @@
 		(uuid "5ccfa3f1-8b92-4a86-8b51-542d3339b9d7")
 	)
 	(junction
+		(at 155.575 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fd2fab4-588b-4684-8b42-38a7f6e4addf")
+	)
+	(junction
 		(at 45.085 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6626,12 +6374,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6be9b888-87ad-4814-ac99-945b97f985d2")
-	)
-	(junction
-		(at 177.8 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7081c247-eaaa-4d17-8706-79bfe8a50e9f")
 	)
 	(junction
 		(at 110.49 62.23)
@@ -6652,6 +6394,12 @@
 		(uuid "7744aba7-2178-4cc6-8858-cfbca409822c")
 	)
 	(junction
+		(at 193.675 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7df80cb1-b88c-4805-8006-d069dff5992f")
+	)
+	(junction
 		(at 212.09 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6670,6 +6418,12 @@
 		(uuid "86c64a7d-d6d3-44ca-9f62-8d9190f5e033")
 	)
 	(junction
+		(at 76.2 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "873be312-5ccf-4cf9-b603-c61eb628c8b1")
+	)
+	(junction
 		(at 156.21 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6680,12 +6434,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b7ffe39-de8e-46f0-8b20-746940e98f21")
-	)
-	(junction
-		(at 200.025 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e046540-968b-4be9-bdc0-dfef5c6c0a87")
 	)
 	(junction
 		(at 173.99 99.06)
@@ -6724,16 +6472,16 @@
 		(uuid "9fed9576-8236-4f46-9e61-917c1764b9af")
 	)
 	(junction
+		(at 193.675 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0bbb392-50a7-479f-95b6-55325e71687d")
+	)
+	(junction
 		(at 28.575 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a913721b-2e57-40ac-ad0c-696593a97da2")
-	)
-	(junction
-		(at 200.025 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa29fcce-db61-4ebc-9a57-5c3f56d4384c")
 	)
 	(junction
 		(at 213.36 132.08)
@@ -6746,12 +6494,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af2d2634-5bce-4ce0-a6f8-d4676fcfa284")
-	)
-	(junction
-		(at 155.575 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1b37496-796a-40f2-8e7f-637858d88039")
 	)
 	(junction
 		(at 233.045 48.895)
@@ -6790,16 +6532,40 @@
 		(uuid "cb730bec-b80f-4d32-b45e-08fb952cfa2e")
 	)
 	(junction
+		(at 207.645 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc2b5efa-12b5-46cb-a2cd-e11b5ef5ca72")
+	)
+	(junction
 		(at 245.745 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d24df0ca-a72e-4c17-b306-b3214d455ed4")
 	)
 	(junction
+		(at 82.55 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4864c7d-e460-404f-bb18-cb4a536815de")
+	)
+	(junction
 		(at 88.9 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d637cf22-a7b9-4f9a-b677-7a9b38d7abd8")
+	)
+	(junction
+		(at 76.2 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d77b7267-846f-4158-a8d0-8b3a031bc719")
+	)
+	(junction
+		(at 158.115 52.705)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7d03d62-6ed5-4090-90f9-fac6faaec33c")
 	)
 	(junction
 		(at 152.4 187.96)
@@ -6832,16 +6598,16 @@
 		(uuid "e8ba9bc4-e5e8-4a07-afef-86abe73ed846")
 	)
 	(junction
-		(at 155.575 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eadc3d94-a470-4883-a3ae-dd68f7d34b7e")
-	)
-	(junction
 		(at 62.23 48.895)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee9bca4c-2114-467f-aeb4-654c390be752")
+	)
+	(junction
+		(at 161.29 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4e96be5-ffd1-4a01-8356-0926b5dfc5fd")
 	)
 	(junction
 		(at 130.175 78.74)
@@ -7027,16 +6793,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 114.3) (xy 147.955 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "069a8fc9-a192-4fc3-aac9-54e3608a16cc")
-	)
-	(wire
-		(pts
 			(xy 219.075 34.925) (xy 231.14 34.925)
 		)
 		(stroke
@@ -7044,6 +6800,16 @@
 			(type default)
 		)
 		(uuid "072c01e4-87bf-45be-87bb-dc83a81c628d")
+	)
+	(wire
+		(pts
+			(xy 160.655 60.325) (xy 157.48 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0920306f-7c05-47b3-a26f-02d3647469e3")
 	)
 	(wire
 		(pts
@@ -7147,16 +6913,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.065 106.68) (xy 142.875 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f4f8473-b8c0-413f-b897-bed0172bf94b")
-	)
-	(wire
-		(pts
 			(xy 190.5 128.27) (xy 167.005 128.27)
 		)
 		(stroke
@@ -7194,6 +6950,16 @@
 			(type default)
 		)
 		(uuid "1165d84f-beef-450d-ab65-8206e95e0c2a")
+	)
+	(wire
+		(pts
+			(xy 155.575 60.325) (xy 155.575 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "133e4dd9-0aac-40d4-95a0-b998fa0327cd")
 	)
 	(wire
 		(pts
@@ -7244,6 +7010,16 @@
 			(type default)
 		)
 		(uuid "15519e41-81bc-4819-8fe7-72750437d7db")
+	)
+	(wire
+		(pts
+			(xy 157.48 60.325) (xy 157.48 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "170817f9-8fed-4011-a17f-4bac659c9e8f")
 	)
 	(wire
 		(pts
@@ -7367,16 +7143,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 106.68) (xy 200.025 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f86f9d7-bf80-4ed2-a43e-0e92c0ddeacc")
-	)
-	(wire
-		(pts
 			(xy 167.64 25.4) (xy 167.64 19.05)
 		)
 		(stroke
@@ -7464,6 +7230,16 @@
 			(type default)
 		)
 		(uuid "28ede1b2-a9b0-430c-98f0-fec99455aaa5")
+	)
+	(wire
+		(pts
+			(xy 207.645 132.08) (xy 213.36 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28fefc0f-05f9-454e-a0ad-5521c03bb022")
 	)
 	(wire
 		(pts
@@ -7787,7 +7563,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 153.035) (xy 177.8 153.035)
+			(xy 165.735 109.22) (xy 193.675 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7844,16 +7620,6 @@
 			(type default)
 		)
 		(uuid "4b3a7338-952e-466f-930d-7c6e10c13ab8")
-	)
-	(wire
-		(pts
-			(xy 150.495 106.68) (xy 155.575 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bc50528-bc48-4ed4-a01d-1b7826a1c2ee")
 	)
 	(wire
 		(pts
@@ -7957,6 +7723,16 @@
 	)
 	(wire
 		(pts
+			(xy 155.575 52.705) (xy 158.115 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "544b7f0e-758b-4167-905c-01f2bb03c04d")
+	)
+	(wire
+		(pts
 			(xy 123.19 137.16) (xy 139.7 137.16)
 		)
 		(stroke
@@ -7974,6 +7750,16 @@
 			(type default)
 		)
 		(uuid "54d0c9c2-622b-4afd-8545-8c59aa1b1bb8")
+	)
+	(wire
+		(pts
+			(xy 193.675 109.22) (xy 198.755 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55512c11-0e3a-4aa0-a254-9d1ca16154ad")
 	)
 	(wire
 		(pts
@@ -8067,6 +7853,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 115.57) (xy 88.9 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5af7f91c-529d-495b-9034-0e74f94e36ac")
+	)
+	(wire
+		(pts
 			(xy 265.43 93.98) (xy 236.855 93.98)
 		)
 		(stroke
@@ -8117,16 +7913,6 @@
 	)
 	(wire
 		(pts
-			(xy 155.575 121.92) (xy 177.8 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5edea25c-0207-4040-9410-88ce8fcf9b84")
-	)
-	(wire
-		(pts
 			(xy 242.57 146.05) (xy 265.43 146.05)
 		)
 		(stroke
@@ -8167,6 +7953,16 @@
 	)
 	(wire
 		(pts
+			(xy 188.595 121.92) (xy 188.595 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62db98ba-1329-4102-8245-ea608e8935fa")
+	)
+	(wire
+		(pts
 			(xy 76.2 142.24) (xy 92.71 142.24)
 		)
 		(stroke
@@ -8204,6 +8000,16 @@
 			(type default)
 		)
 		(uuid "689b3d21-54c7-4aa6-a1ec-20b795168d9b")
+	)
+	(wire
+		(pts
+			(xy 155.575 74.93) (xy 158.75 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68eace7d-0f86-4ad7-8103-48cede41a341")
 	)
 	(wire
 		(pts
@@ -8307,26 +8113,6 @@
 	)
 	(wire
 		(pts
-			(xy 155.575 106.68) (xy 177.8 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72e3816d-2c20-45e9-bce3-1bd7e26fe143")
-	)
-	(wire
-		(pts
-			(xy 214.63 114.3) (xy 207.645 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73704185-2fd4-4303-9640-96ae18b443df")
-	)
-	(wire
-		(pts
 			(xy 43.815 36.83) (xy 45.085 36.83)
 		)
 		(stroke
@@ -8357,6 +8143,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.115 52.705) (xy 160.655 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77fffb95-84e4-4734-b7df-08cba347a08c")
+	)
+	(wire
+		(pts
 			(xy 214.63 77.47) (xy 236.855 77.47)
 		)
 		(stroke
@@ -8374,16 +8170,6 @@
 			(type default)
 		)
 		(uuid "7c233522-b848-4048-8bfe-e5e4420283fd")
-	)
-	(wire
-		(pts
-			(xy 177.8 121.92) (xy 200.025 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c9f0a7c-2c71-4fdb-b4af-dae57a15c629")
 	)
 	(wire
 		(pts
@@ -8497,7 +8283,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 59.69) (xy 28.575 59.69)
+			(xy 28.575 59.69) (xy 40.64 59.69)
 		)
 		(stroke
 			(width 0)
@@ -8557,6 +8343,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 69.85) (xy 157.48 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89447697-48cf-4f17-9c00-6943308be8cf")
+	)
+	(wire
+		(pts
 			(xy 167.64 31.75) (xy 167.64 25.4)
 		)
 		(stroke
@@ -8597,6 +8393,16 @@
 	)
 	(wire
 		(pts
+			(xy 188.595 121.92) (xy 193.675 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c823945-4503-4f82-8b0a-777c565afc6a")
+	)
+	(wire
+		(pts
 			(xy 212.09 34.29) (xy 212.09 41.91)
 		)
 		(stroke
@@ -8624,6 +8430,16 @@
 			(type default)
 		)
 		(uuid "90aa8c34-2981-41b3-b0b2-f6945e8a1f8a")
+	)
+	(wire
+		(pts
+			(xy 76.2 115.57) (xy 82.55 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90ab0c4d-6de4-4b6c-85c9-d41177dc9f82")
 	)
 	(wire
 		(pts
@@ -8664,16 +8480,6 @@
 			(type default)
 		)
 		(uuid "92e5e2b7-ff6f-4627-b4e6-65db3bb4c9da")
-	)
-	(wire
-		(pts
-			(xy 40.64 59.69) (xy 38.1 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "942a2a0c-621b-400e-9765-56ee42b3de1b")
 	)
 	(wire
 		(pts
@@ -8794,6 +8600,16 @@
 			(type default)
 		)
 		(uuid "99bcd44c-c3e0-4d0c-b13a-1af3844918c2")
+	)
+	(wire
+		(pts
+			(xy 157.48 69.85) (xy 158.75 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a315eb7-0697-4419-ad67-a3af7704c3cc")
 	)
 	(wire
 		(pts
@@ -9027,6 +8843,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 74.93) (xy 155.575 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf1535e-84bd-48fb-8548-bec853c81d21")
+	)
+	(wire
+		(pts
 			(xy 234.95 82.55) (xy 234.95 101.6)
 		)
 		(stroke
@@ -9067,7 +8893,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 150.495) (xy 177.8 150.495)
+			(xy 193.675 121.92) (xy 198.755 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f54d84-1bdc-4f70-a48d-c85dc5eb7daa")
+	)
+	(wire
+		(pts
+			(xy 165.735 111.76) (xy 188.595 111.76)
 		)
 		(stroke
 			(width 0)
@@ -9094,6 +8930,16 @@
 			(type default)
 		)
 		(uuid "b55e6d97-c9df-47ff-b697-3097c2e706b0")
+	)
+	(wire
+		(pts
+			(xy 82.55 107.95) (xy 88.9 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6fb1e35-6844-484d-bc62-77bb86ee74e6")
 	)
 	(wire
 		(pts
@@ -9164,6 +9010,16 @@
 			(type default)
 		)
 		(uuid "bb585e83-1a01-4488-ad69-c38b31854576")
+	)
+	(wire
+		(pts
+			(xy 161.29 132.08) (xy 167.005 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe84dfe-af3f-46b5-b670-541586422681")
 	)
 	(wire
 		(pts
@@ -9327,16 +9183,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 114.3) (xy 163.195 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c58fcb97-0c34-4f20-af50-cb43e435b2da")
-	)
-	(wire
-		(pts
 			(xy 101.6 177.8) (xy 118.11 177.8)
 		)
 		(stroke
@@ -9344,16 +9190,6 @@
 			(type default)
 		)
 		(uuid "c598377d-2b50-4ab8-ac0d-e4d4d1aa1c7d")
-	)
-	(wire
-		(pts
-			(xy 192.405 114.3) (xy 185.42 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5b9de82-3253-4dae-94a8-b31fc3e673a9")
 	)
 	(wire
 		(pts
@@ -9457,13 +9293,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 69.85) (xy 151.13 69.85)
+			(xy 76.2 107.95) (xy 82.55 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca49782b-8ed4-4877-bbc6-03ab8c12ae5c")
+		(uuid "ca31f805-c9a0-4568-b618-2a3eb1405053")
 	)
 	(wire
 		(pts
@@ -9557,7 +9393,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.685 132.08) (xy 167.005 132.08)
+			(xy 146.685 132.08) (xy 161.29 132.08)
 		)
 		(stroke
 			(width 0)
@@ -9574,16 +9410,6 @@
 			(type default)
 		)
 		(uuid "d7d87af9-4c8b-430c-a291-258618daddb6")
-	)
-	(wire
-		(pts
-			(xy 200.025 106.68) (xy 222.25 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7f0e6df-1f2f-4745-a75a-dc0aae644f1a")
 	)
 	(wire
 		(pts
@@ -9677,16 +9503,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.025 121.92) (xy 222.25 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e40edd4f-c669-46d5-8a17-96b5969ff4cc")
-	)
-	(wire
-		(pts
 			(xy 209.55 56.515) (xy 209.55 82.55)
 		)
 		(stroke
@@ -9707,7 +9523,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 132.08) (xy 213.36 132.08)
+			(xy 193.04 132.08) (xy 207.645 132.08)
 		)
 		(stroke
 			(width 0)
@@ -9784,16 +9600,6 @@
 			(type default)
 		)
 		(uuid "ea782fca-ab55-4118-a76a-e2a4d9ca55ae")
-	)
-	(wire
-		(pts
-			(xy 147.32 74.93) (xy 151.13 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea78dfdc-532a-4b3f-b5a1-3078c2e1f1f5")
 	)
 	(wire
 		(pts
@@ -10223,17 +10029,6 @@
 		)
 		(uuid "12ab4f15-3e14-46f6-ad01-8ec479cdccfa")
 	)
-	(label "V_BOOST"
-		(at 173.355 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "134ecfe4-d601-4419-8591-01b8489189b6")
-	)
 	(label "VUSB"
 		(at 21.59 118.745 0)
 		(fields_autoplaced yes)
@@ -10509,17 +10304,6 @@
 		)
 		(uuid "4f0ceb3e-235c-4ce3-b26d-9294b33d9b17")
 	)
-	(label "LED"
-		(at 143.51 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "567823a5-d768-4f74-91f8-943d779f5c65")
-	)
 	(label "KEY_LEFT"
 		(at 242.57 161.29 0)
 		(fields_autoplaced yes)
@@ -10664,7 +10448,7 @@
 		(uuid "6e4bc952-55bb-4180-acec-52a77f91c322")
 	)
 	(label "KEY_OPTION"
-		(at 165.1 153.035 0)
+		(at 165.735 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10730,7 +10514,7 @@
 		(uuid "73533642-f26c-4fe8-8325-609950543f90")
 	)
 	(label "KEY_MENU"
-		(at 165.1 150.495 0)
+		(at 165.735 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11321,6 +11105,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 82.55 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00e5b905-ee99-4393-a945-dbfe37549dc8")
+		(property "Reference" "C34"
+			(at 83.185 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4µ7"
+			(at 83.185 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 83.5152 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V"
+			(at 82.55 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C69335"
+			(at 82.55 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SOURCED" "ok"
+			(at 82.55 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b1226a3-6677-479c-abc0-e72b87f46fa4")
+		)
+		(pin "2"
+			(uuid "841b6c77-b933-446a-a4dd-1a7479dd44e2")
+		)
+		(instances
+			(project "ILI9341_ESP32_GBC"
+				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:FerriteBead_Small")
 		(at 204.47 82.55 90)
 		(unit 1)
@@ -11680,7 +11551,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "4µ7"
 			(at 29.845 125.095 0)
 			(effects
 				(font
@@ -11716,7 +11587,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5673"
+		(property "LCSC" "C69335"
 			(at 29.845 122.555 0)
 			(effects
 				(font
@@ -11767,7 +11638,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "4µ7"
 			(at 60.325 27.94 0)
 			(effects
 				(font
@@ -11803,7 +11674,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5673"
+		(property "LCSC" "C69335"
 			(at 59.69 25.4 0)
 			(effects
 				(font
@@ -12254,52 +12125,16 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 155.575 114.3 0)
+		(lib_id "power:GND")
+		(at 76.2 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "15d581d8-faef-4c62-b3e9-dfda46eb1f73")
-		(property "Reference" "D8"
-			(at 162.56 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 165.735 111.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 156.845 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 158.115 123.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 155.575 114.3 0)
+		(uuid "1419ee17-ed02-4b4d-b01a-697fb43403b2")
+		(property "Reference" "#PWR037"
+			(at 76.2 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12307,8 +12142,34 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "ok"
-			(at 155.575 114.3 0)
+		(property "Value" "GND"
+			(at 76.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12317,21 +12178,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dac8750d-a294-43b5-b602-65afebfaf9ef")
-		)
-		(pin "2"
-			(uuid "051c84b8-5ef7-437e-a37f-ffe2f3755993")
-		)
-		(pin "3"
-			(uuid "567a2677-e840-4e28-8bcc-bb09ae16bc2b")
-		)
-		(pin "4"
-			(uuid "36902c1c-2782-4050-9c01-53ddabc122cf")
+			(uuid "bc42b887-7b68-4e6e-ae7d-7975e635f421")
 		)
 		(instances
-			(project ""
+			(project "ILI9341_ESP32_GBC"
 				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
-					(reference "D8")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -13645,6 +13497,93 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 207.645 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2de3aac6-10d0-4f05-ac1d-42de77026bc9")
+		(property "Reference" "C37"
+			(at 206.375 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220p"
+			(at 207.01 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 208.6102 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.645 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V"
+			(at 207.645 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C107081"
+			(at 207.645 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SOURCED" "ok"
+			(at 207.645 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00cff9ae-01da-4a5c-a477-bbb571633bde")
+		)
+		(pin "2"
+			(uuid "98940918-ecf9-43df-8622-076014cc6e43")
+		)
+		(instances
+			(project "ILI9341_ESP32_GBC"
+				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 46.99 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13661,7 +13600,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "4µ7"
 			(at 47.625 77.47 0)
 			(effects
 				(font
@@ -13697,7 +13636,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5673"
+		(property "LCSC" "C69335"
 			(at 46.99 74.93 0)
 			(effects
 				(font
@@ -14718,7 +14657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 117.1702 57.785 0)
 			(effects
 				(font
@@ -14745,7 +14684,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C282809"
+		(property "LCSC" "C69335"
 			(at 116.205 53.975 0)
 			(effects
 				(font
@@ -14796,7 +14735,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "4µ7"
 			(at 95.885 26.035 0)
 			(effects
 				(font
@@ -14832,7 +14771,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5673"
+		(property "LCSC" "C69335"
 			(at 95.885 23.495 0)
 			(effects
 				(font
@@ -15256,6 +15195,158 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 88.9 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54b556b4-96ee-487a-931d-a997948aaa75")
+		(property "Reference" "C33"
+			(at 89.535 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4µ7"
+			(at 89.535 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 89.8652 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V"
+			(at 88.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C69335"
+			(at 88.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SOURCED" "ok"
+			(at 88.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe9c879f-ad31-4d05-a768-4eba7c2c6c01")
+		)
+		(pin "2"
+			(uuid "1d05ecdc-2cff-4b79-968a-04ee51cfe432")
+		)
+		(instances
+			(project "ILI9341_ESP32_GBC"
+				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a523557-717e-419a-b73c-6a69487ebadd")
+		(property "Reference" "#PWR074"
+			(at 161.29 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.655 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b63f4086-a143-4c03-8aca-18458f4ebeb6")
+		)
+		(instances
+			(project "ILI9341_ESP32_GBC"
+				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 257.175 74.295 0)
 		(unit 1)
@@ -15343,6 +15434,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 207.645 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e42596d-06f1-43d6-a6e2-701cd6b220dc")
+		(property "Reference" "#PWR073"
+			(at 207.645 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.645 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.645 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.645 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41ca0738-bb0b-46c1-ad7e-421009eb6563")
+		)
+		(instances
+			(project "ILI9341_ESP32_GBC"
+				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Battery_Cell")
 		(at 66.675 96.52 180)
 		(unit 1)
@@ -15371,7 +15527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TheBrutzlers_Lib:NINTENDO_MINUS"
+		(property "Footprint" "easyeda2kicad:BAT-SMD_MY-FJ-3031"
 			(at 66.675 98.044 90)
 			(effects
 				(font
@@ -15507,90 +15663,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 222.25 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5fd379e6-d508-4229-b089-91d4ccbf6e1a")
-		(property "Reference" "D11"
-			(at 229.87 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 232.41 111.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 223.52 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 224.79 123.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 222.25 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SOURCED" "ok"
-			(at 222.25 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45aaf7f8-468e-444d-a13d-16e211f88455")
-		)
-		(pin "2"
-			(uuid "8374aa4e-57a9-40ef-858c-7d979b240c6c")
-		)
-		(pin "3"
-			(uuid "79eaea72-e3f4-43e1-a357-00a6e49add2d")
-		)
-		(pin "4"
-			(uuid "4c9dc443-7577-4c27-a642-5a83bb1cf85f")
-		)
-		(instances
-			(project "ILI9341_ESP32_GBC_V1"
-				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 156.21 93.98 0)
 		(unit 1)
@@ -15608,7 +15680,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1µ"
 			(at 156.845 96.52 0)
 			(effects
 				(font
@@ -16536,90 +16608,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 200.025 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "83235a2b-76d1-46cf-b8fa-4d892ccb6e82")
-		(property "Reference" "D10"
-			(at 207.645 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 210.185 111.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 201.295 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 202.565 123.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 200.025 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SOURCED" "ok"
-			(at 200.025 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "42b5a964-a8e4-4fcf-97d1-dbc35b04ddd8")
-		)
-		(pin "2"
-			(uuid "0c0fd706-01b0-4169-883d-9c3ebf1fdc3f")
-		)
-		(pin "3"
-			(uuid "4d81e9c4-b662-44df-ba1c-c2634e334954")
-		)
-		(pin "4"
-			(uuid "1b3bbdf4-2997-4e80-bc59-d294f6e5279d")
-		)
-		(instances
-			(project "ILI9341_ESP32_GBC_V1"
-				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 133.35 23.495 0)
 		(unit 1)
@@ -17089,6 +17077,72 @@
 			(project "ILI9341_ESP32_GBC_V1"
 				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 76.2 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "892d189b-d0bf-45c9-95a7-2ea4fc66cc72")
+		(property "Reference" "#PWR048"
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 73.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e5c4c84-ca5d-45ad-9d8e-14f2df155359")
+		)
+		(instances
+			(project "ILI9341_ESP32_GBC"
+				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -17620,90 +17674,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 177.8 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9601895b-5ebb-4dba-8e72-b2a9d3af589d")
-		(property "Reference" "D9"
-			(at 184.785 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 187.96 111.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 179.07 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 180.34 123.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 177.8 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SOURCED" "ok"
-			(at 177.8 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "25449903-93b2-4cad-b003-6f2274b17e70")
-		)
-		(pin "2"
-			(uuid "962e9eca-afea-4735-8615-6171b148fa3c")
-		)
-		(pin "3"
-			(uuid "fe7981ef-4677-48e2-a761-3222f521bae2")
-		)
-		(pin "4"
-			(uuid "370881cf-956f-41df-ae2e-6ad04aea6cfe")
-		)
-		(instances
-			(project "ILI9341_ESP32_GBC_V1"
-				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 101.6 44.45 180)
 		(unit 1)
@@ -17873,7 +17843,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "4µ7"
 			(at 130.81 85.09 0)
 			(effects
 				(font
@@ -17909,7 +17879,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5673"
+		(property "LCSC" "C69335"
 			(at 130.175 82.55 0)
 			(effects
 				(font
@@ -18352,7 +18322,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 154.94 74.93 90)
+		(at 151.13 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18360,7 +18330,7 @@
 		(dnp no)
 		(uuid "a0137a41-429b-40ec-82dc-a5cffc9abb79")
 		(property "Reference" "R55"
-			(at 152.4 73.66 90)
+			(at 148.59 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18369,7 +18339,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 157.48 74.93 90)
+			(at 153.67 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18378,7 +18348,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 154.94 76.708 90)
+			(at 151.13 76.708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18387,7 +18357,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 74.93 0)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18396,7 +18366,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 74.93 0)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18405,7 +18375,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 154.94 74.93 0)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18414,7 +18384,7 @@
 			)
 		)
 		(property "SOURCED" "ok"
-			(at 154.94 74.93 0)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18455,7 +18425,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "4µ7"
 			(at 125.095 85.09 0)
 			(effects
 				(font
@@ -18491,7 +18461,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5673"
+		(property "LCSC" "C69335"
 			(at 124.46 82.55 0)
 			(effects
 				(font
@@ -18585,6 +18555,190 @@
 			(project "ILI9341_ESP32_GBC_V1"
 				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:TM-2023")
+		(at 193.675 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a619a680-c2f2-4a35-a17b-b5868e4e431a")
+		(property "Reference" "SW1"
+			(at 200.025 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TM-2023"
+			(at 200.025 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_TM-2023-1"
+			(at 180.975 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multi-Directional-Switches_XKB-Enterprise-TM-2023_C318951.html"
+			(at 178.435 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.675 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C318951"
+			(at 175.895 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "db5c81aa-ccb0-437a-801c-b1d991e64b25")
+		)
+		(pin "1"
+			(uuid "f4ac29a3-0e60-4e30-956e-e97e53ceab7f")
+		)
+		(pin "5"
+			(uuid "ebb3ec28-711b-4a0f-9a16-e839e39054e7")
+		)
+		(pin "C"
+			(uuid "96755ade-6dbd-4254-9cac-fd035336b2d7")
+		)
+		(pin "6"
+			(uuid "8e87141c-3352-4f94-b6d6-45a4787f8319")
+		)
+		(pin "2"
+			(uuid "7255810e-82bc-43fe-a0a3-a78b1ee79f72")
+		)
+		(pin "T"
+			(uuid "cc1a6430-d3a9-4c50-aabe-200244ff4191")
+		)
+		(pin "4"
+			(uuid "1e2dcf6a-1ca9-4c94-96f5-6756791af712")
+		)
+		(instances
+			(project ""
+				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 160.655 56.515 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a61f5ea2-3d0e-4be0-bdc6-f7262b5ee3fe")
+		(property "Reference" "C14"
+			(at 161.29 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220p"
+			(at 161.29 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 159.6898 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.655 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V"
+			(at 160.655 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C107081"
+			(at 160.655 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SOURCED" "ok"
+			(at 160.655 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7a5e294-4c41-4c1d-b452-d57fe4898980")
+		)
+		(pin "2"
+			(uuid "9dc12d2f-3eee-41d3-b599-db4e6951213a")
+		)
+		(instances
+			(project "ILI9341_ESP32_GBC"
+				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -18871,72 +19025,6 @@
 			(project "ILI9341_ESP32_GBC_V1"
 				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 155.575 121.92 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab818a10-4756-410d-b3ec-f1ff833f3210")
-		(property "Reference" "#PWR061"
-			(at 155.575 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 155.575 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 155.575 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 155.575 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 155.575 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44e490c1-9fa1-410b-a18b-32a90405f562")
-		)
-		(instances
-			(project "ILI9341_ESP32_GBC_V1"
-				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
-					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -19262,6 +19350,158 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 193.675 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b55e1833-8d48-41ad-87b1-22350d018b4f")
+		(property "Reference" "#PWR061"
+			(at 193.675 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.215 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.675 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.675 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.675 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2ab9b4d-e432-4453-9a9c-585b95ac856d")
+		)
+		(instances
+			(project "ILI9341_ESP32_GBC"
+				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 76.2 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5a11ae6-5c52-42c2-b386-f35222676cb9")
+		(property "Reference" "C35"
+			(at 76.835 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4µ7"
+			(at 76.835 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 77.1652 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V"
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C69335"
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SOURCED" "ok"
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fff6c4d-d1ee-41c3-b096-70712948fc3b")
+		)
+		(pin "2"
+			(uuid "140c3b10-f99b-48e3-8a95-8d4574a90abc")
+		)
+		(instances
+			(project "ILI9341_ESP32_GBC"
+				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 142.24 23.495 0)
 		(unit 1)
@@ -19279,7 +19519,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "4µ7"
 			(at 142.24 26.035 0)
 			(effects
 				(font
@@ -19315,7 +19555,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5673"
+		(property "LCSC" "C69335"
 			(at 142.24 23.495 0)
 			(effects
 				(font
@@ -19377,7 +19617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TheBrutzlers_Lib:BATTERY_AA_SMD_PLUS"
+		(property "Footprint" "easyeda2kicad:CONN-SMD_MY-ZJ-3030"
 			(at 57.785 97.536 90)
 			(effects
 				(font
@@ -19473,7 +19713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 204.7748 24.13 0)
 			(effects
 				(font
@@ -19500,7 +19740,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C282809"
+		(property "LCSC" "C69335"
 			(at 205.74 27.94 0)
 			(effects
 				(font
@@ -19740,93 +19980,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 146.685 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c2690782-2914-4b3c-855d-3f65d25ca195")
-		(property "Reference" "C27"
-			(at 144.145 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 145.415 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 150.495 105.7148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.685 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V"
-			(at 146.685 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C30926"
-			(at 146.685 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SOURCED" "ok"
-			(at 146.685 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0fe321cd-b796-4ca2-9da2-eeca3a54393c")
-		)
-		(pin "2"
-			(uuid "ed060f9f-fcc9-419b-87b0-c72c0eafe9c7")
-		)
-		(instances
-			(project "ILI9341_ESP32_GBC_V1"
-				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:ESP32-WROVER-E-N8R8")
 		(at 107.95 146.05 0)
 		(unit 1)
@@ -20056,6 +20209,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -20334,6 +20488,72 @@
 			(project "ILI9341_ESP32_GBC_V1"
 				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
 					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.115 52.705 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c89c3bf2-3ee5-4d92-948d-6b5821ceac2d")
+		(property "Reference" "#PWR036"
+			(at 158.115 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.115 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.115 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.115 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.115 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c36f7cf-b138-48fe-9882-9f40692a6336")
+		)
+		(instances
+			(project "ILI9341_ESP32_GBC"
+				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -21099,71 +21319,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 159.385 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d4e4198b-e52d-4e6d-9d9e-30e31395c723")
-		(property "Reference" "#PWR050"
-			(at 184.15 165.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 162.433 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 159.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 159.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 159.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d891386f-d8dc-4dde-9113-3784b0412a8b")
-		)
-		(instances
-			(project "ILI9341_ESP32_GBC_V1"
-				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 135.255 86.36 0)
 		(mirror y)
 		(unit 1)
@@ -21321,7 +21476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 63.1952 56.515 0)
 			(effects
 				(font
@@ -21348,7 +21503,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C282809"
+		(property "LCSC" "C69335"
 			(at 62.23 52.705 0)
 			(effects
 				(font
@@ -21712,7 +21867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 167.64 24.4348 0)
 			(effects
 				(font
@@ -21739,7 +21894,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C282809"
+		(property "LCSC" "C69335"
 			(at 163.83 25.4 0)
 			(effects
 				(font
@@ -22160,100 +22315,6 @@
 		)
 	)
 	(symbol
-		(lib_id "theBrutzler:02FVS3")
-		(at 184.15 155.575 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e57ee668-24ea-44dd-bff8-cadec4441e5b")
-		(property "Reference" "U7"
-			(at 190.5 154.3406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "02FVS3"
-			(at 190.5 151.8006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TheBrutzlers_Lib:02FVS3"
-			(at 184.15 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2207281230_Mitsumi-Electric-SIQ-02FVS3_C2925423.pdf"
-			(at 184.15 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rotary and Push Encoder"
-			(at 184.15 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2925423"
-			(at 184.15 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SOURCED" "ok"
-			(at 184.15 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "201b2ceb-3a36-4515-b44c-2a5291c0414b")
-		)
-		(pin "B"
-			(uuid "2582b610-eaf1-4b73-86d7-0ba9b2006568")
-		)
-		(pin "C"
-			(uuid "c98d4ee4-5479-40a8-bb01-5a82cc3d2bdf")
-		)
-		(pin "S"
-			(uuid "26b45fef-4bdc-4661-a5f1-8199b1f13cbe")
-		)
-		(instances
-			(project "ILI9341_ESP32_GBC_V1"
-				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:BQ25171QWDRCRQ1")
 		(at 185.42 36.83 0)
 		(unit 1)
@@ -22593,72 +22654,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 139.065 106.68 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb9e2441-864f-479b-8013-f6241c76a866")
-		(property "Reference" "#PWR062"
-			(at 132.715 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 133.985 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.065 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.065 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.065 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a7bb6b8-eb03-44d1-91e3-e83967895953")
-		)
-		(instances
-			(project "ILI9341_ESP32_GBC_V1"
-				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 135.255 82.55 0)
 		(unit 1)
@@ -22676,7 +22671,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "4µ7"
 			(at 135.89 85.09 0)
 			(effects
 				(font
@@ -22712,7 +22707,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5673"
+		(property "LCSC" "C69335"
 			(at 135.255 82.55 0)
 			(effects
 				(font
@@ -23331,7 +23326,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 154.94 69.85 90)
+		(at 151.13 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23339,7 +23334,7 @@
 		(dnp no)
 		(uuid "f22fcf3a-a44b-487a-bb48-6f5449cf4cd1")
 		(property "Reference" "R54"
-			(at 152.4 68.58 90)
+			(at 148.59 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23348,7 +23343,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 157.48 69.85 90)
+			(at 153.67 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23357,7 +23352,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 154.94 71.628 90)
+			(at 151.13 71.628 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23366,7 +23361,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 69.85 0)
+			(at 151.13 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23375,7 +23370,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 69.85 0)
+			(at 151.13 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23384,7 +23379,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 154.94 69.85 0)
+			(at 151.13 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23393,7 +23388,7 @@
 			)
 		)
 		(property "SOURCED" "ok"
-			(at 154.94 69.85 0)
+			(at 151.13 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23476,6 +23471,93 @@
 			(project "ILI9341_ESP32_GBC_V1"
 				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 155.575 56.515 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f461ba6a-3323-41e7-b703-347a5c4ff6da")
+		(property "Reference" "C32"
+			(at 154.305 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220p"
+			(at 154.94 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 156.5402 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 155.575 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V"
+			(at 155.575 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C107081"
+			(at 155.575 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SOURCED" "ok"
+			(at 155.575 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74fd0362-a073-4bfd-b492-b6ca56945431")
+		)
+		(pin "2"
+			(uuid "71a864e6-85cc-4f90-93cf-c3f66648999b")
+		)
+		(instances
+			(project "ILI9341_ESP32_GBC"
+				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -23633,6 +23715,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 161.29 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f755a1f0-ceb4-4292-aab7-ceeab3118df2")
+		(property "Reference" "C36"
+			(at 160.02 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220p"
+			(at 160.655 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 162.2552 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V"
+			(at 161.29 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C107081"
+			(at 161.29 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SOURCED" "ok"
+			(at 161.29 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92de96dc-974c-4d55-921c-29a801c975d0")
+		)
+		(pin "2"
+			(uuid "46998b71-8563-4fb6-bec8-44bf167fa14e")
+		)
+		(instances
+			(project "ILI9341_ESP32_GBC"
+				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 97.79 177.8 270)
 		(unit 1)
@@ -23712,92 +23881,6 @@
 			(project "ILI9341_ESP32_GBC_V1"
 				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
 					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 35.56 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f9ddf64e-67de-4267-9b84-6777f515dbde")
-		(property "Reference" "FB9"
-			(at 31.75 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead_Small"
-			(at 35.5219 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 35.56 61.468 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "600R 100MHz 100mOhm 2Amp"
-			(at 35.56 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C963878"
-			(at 35.56 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SOURCED" "ok"
-			(at 35.56 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ebd2ab46-6f98-4a14-a4f1-8e602239fa71")
-		)
-		(pin "2"
-			(uuid "f5e13c42-dcfd-4226-b0e8-fb7da4bfdbf2")
-		)
-		(instances
-			(project "ILI9341_ESP32_GBC_V1"
-				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
-					(reference "FB9")
 					(unit 1)
 				)
 			)
@@ -24122,7 +24205,7 @@
 			(uuid "5401e71b-e321-4f53-8dd0-be5bd79f7467")
 		)
 		(instances
-			(project "ILI9341_ESP32_GBC_V1"
+			(project "ILI9341_ESP32_GBC"
 				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
 					(page "4")
 				)
@@ -24211,7 +24294,7 @@
 			(uuid "942756b0-8ccd-4f70-8f14-9b8c1073998e")
 		)
 		(instances
-			(project "ILI9341_ESP32_GBC_V1"
+			(project "ILI9341_ESP32_GBC"
 				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
 					(page "4")
 				)
@@ -24440,7 +24523,7 @@
 			(uuid "fa43d283-66b8-44fe-97f5-11087f6c9d24")
 		)
 		(instances
-			(project "ILI9341_ESP32_GBC_V1"
+			(project "ILI9341_ESP32_GBC"
 				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
 					(page "2")
 				)
