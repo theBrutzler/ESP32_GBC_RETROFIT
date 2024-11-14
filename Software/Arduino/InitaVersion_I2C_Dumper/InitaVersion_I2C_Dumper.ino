@@ -90,8 +90,10 @@ uint16_t ramEndAddress = 0;
 void setup() {
 
   Serial.begin(baud);  // for 4/16 MHz clock
+  delay(1000);
+  Wire.begin(2, 42);
 
-  Wire.begin(2, 1);
+  //Wire.begin(2, 1);
 
   if (!aw_1.begin(0x58)) {
     Serial.println("AW9523_1 not found? Check wiring!");
@@ -106,7 +108,7 @@ void setup() {
   }
 
   if (!aw_2.begin(0x5A)) {
-    Serial.println("AW9523_1 not found? Check wiring!");
+    Serial.println("AW9523_2 not found? Check wiring!");
     while (1) delay(10);  // halt forever
   }
 
