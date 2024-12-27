@@ -12131,9 +12131,9 @@
 		(at 207.645 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2de3aac6-10d0-4f05-ac1d-42de77026bc9")
 		(property "Reference" "C37"
 			(at 206.375 133.985 0)
@@ -20214,9 +20214,9 @@
 		(at 161.29 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f755a1f0-ceb4-4292-aab7-ceeab3118df2")
 		(property "Reference" "C36"
 			(at 160.02 133.985 0)
