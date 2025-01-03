@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "ff5a7903-456b-49e1-a9c0-cc21ca8443ce")
 	(paper "A4")
+	(title_block
+		(title "GBCRetrofitBoard")
+		(date "2025-01-03")
+		(rev "V1.3")
+		(company "theBrutzler")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
@@ -3363,7 +3369,7 @@
 				)
 			)
 		)
-		(symbol "easyeda2kicad:K3-1290S-J1"
+		(symbol "easyeda2kicad:MSK12CO2-SZ"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3375,16 +3381,16 @@
 					)
 				)
 			)
-			(property "Value" "K3-1290S-J1"
-				(at 0 2.54 0)
+			(property "Value" "MSK12CO2-SZ"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:SW-SMD_K3-1290S-J1"
-				(at 0 0 0)
+			(property "Footprint" "easyeda2kicad:SW-TH_MSK12C02"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3392,8 +3398,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Toggle-Switches_Korean-Hroparts-Elec-K3-1290S-J1_C223846.html"
-				(at 0 -2.54 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3410,8 +3416,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C223846"
-				(at 0 -5.08 0)
+			(property "LCSC Part" "C2681568"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3419,21 +3425,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "K3-1290S-J1_0_1"
+			(symbol "MSK12CO2-SZ_0_1"
 				(rectangle
-					(start -6.6 -1.78)
-					(end -3.56 -3.3)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.52 -1.78)
-					(end 1.52 -3.3)
+					(start -10.16 2.54)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0)
 						(type default)
@@ -3444,7 +3439,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 -1.78) (xy -5.33 -0.51)
+						(xy -3.81 0) (xy -4.06 0.76)
 					)
 					(stroke
 						(width 0)
@@ -3456,7 +3451,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 -1.78) (xy -4.83 -0.51)
+						(xy -0.76 -4.06) (xy 0.76 -4.06)
 					)
 					(stroke
 						(width 0)
@@ -3468,7 +3463,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 1.52) (xy -5.08 2.54)
+						(xy -0.51 -4.32) (xy 0.51 -4.32)
 					)
 					(stroke
 						(width 0)
@@ -3480,7 +3475,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.78) (xy -0.25 -0.51)
+						(xy -0.25 -4.57) (xy 0.25 -4.57)
 					)
 					(stroke
 						(width 0)
@@ -3492,7 +3487,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.78) (xy 0.25 -0.51)
+						(xy 0 0) (xy -0.25 0.76)
 					)
 					(stroke
 						(width 0)
@@ -3504,7 +3499,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.81) (xy 0 5.08)
+						(xy 0 0) (xy 0.25 0.76)
 					)
 					(stroke
 						(width 0)
@@ -3516,7 +3511,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -1.78) (xy 4.83 -0.51)
+						(xy 0 0.76) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -3528,7 +3523,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -1.78) (xy 5.33 -0.51)
+						(xy 0 2.54) (xy 0 0.76)
 					)
 					(stroke
 						(width 0)
@@ -3540,7 +3535,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 3.81) (xy 5.08 5.08)
+						(xy 2.54 0) (xy 2.29 0.76)
 					)
 					(stroke
 						(width 0)
@@ -3552,7 +3547,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 -1.78) (xy -5.08 1.52) (xy 0 1.52)
+						(xy 2.54 2.54) (xy 2.54 0) (xy 2.79 0.76)
 					)
 					(stroke
 						(width 0)
@@ -3564,7 +3559,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -1.78) (xy 5.08 3.81) (xy 0 3.81) (xy 0 -1.78)
+						(xy 0 1.78) (xy -3.81 1.78) (xy -3.81 0) (xy -3.56 0.76)
 					)
 					(stroke
 						(width 0)
@@ -3574,9 +3569,23 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 3.56 -1.78)
-					(end 6.6 -3.3)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 4.06 -2.54) (xy 4.06 -3.56) (xy 0 -3.56) (xy 0 -4.06)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.32 0) (xy -3.05 0) (xy -3.05 -1.27) (xy 1.78 -1.27) (xy 1.78 0) (xy 3.3 0) (xy 3.3 -2.54)
+						(xy -4.57 -2.54) (xy -4.57 0) (xy -4.32 0)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -3586,7 +3595,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -5.08 7.62 270)
+					(at -7.62 7.62 270)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -3605,7 +3614,7 @@
 				)
 				(pin unspecified line
 					(at 0 7.62 270)
-					(length 2.54)
+					(length 5.08)
 					(name "2"
 						(effects
 							(font
@@ -3622,8 +3631,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 7.62 270)
-					(length 2.54)
+					(at 2.54 7.62 270)
+					(length 5.08)
 					(name "3"
 						(effects
 							(font
@@ -3632,6 +3641,78 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5586,6 +5667,12 @@
 		(uuid "07492e61-8a84-44f0-9993-4f208fbf7736")
 	)
 	(junction
+		(at 25.4 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1082e251-53b1-4680-9633-9a64c5da54b5")
+	)
+	(junction
 		(at 212.725 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5838,6 +5925,12 @@
 		(uuid "cc87a722-02e9-4cf5-a504-c1606b5ec70a")
 	)
 	(junction
+		(at 50.8 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3fa9286-1af4-49f2-b022-2af94b0b151c")
+	)
+	(junction
 		(at 68.58 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5980,6 +6073,16 @@
 			(type default)
 		)
 		(uuid "059e895e-2b4b-4a5f-9a71-9eab070b1e20")
+	)
+	(wire
+		(pts
+			(xy 25.4 102.87) (xy 25.4 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "070b3648-d4d2-4d98-becc-38a02cdcfa53")
 	)
 	(wire
 		(pts
@@ -7243,7 +7346,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 91.44) (xy 38.1 95.25)
+			(xy 40.64 91.44) (xy 40.64 95.25)
 		)
 		(stroke
 			(width 0)
@@ -7783,6 +7886,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 102.87) (xy 50.8 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8b7d789-4732-4f52-ae22-27da3b59a9ad")
+	)
+	(wire
+		(pts
 			(xy 255.905 74.93) (xy 258.445 74.93)
 		)
 		(stroke
@@ -8153,7 +8266,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 91.44) (xy 57.785 91.44)
+			(xy 40.64 91.44) (xy 57.785 91.44)
 		)
 		(stroke
 			(width 0)
@@ -8323,6 +8436,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 106.68) (xy 25.4 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e806c74e-352a-4757-9b80-2a11132c51fa")
+	)
+	(wire
+		(pts
 			(xy 143.51 144.145) (xy 127 144.145)
 		)
 		(stroke
@@ -8430,6 +8553,16 @@
 			(type default)
 		)
 		(uuid "eca816ab-337c-413f-821b-ea52dd13f6bf")
+	)
+	(wire
+		(pts
+			(xy 50.8 106.68) (xy 50.8 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecdc68c8-ee7d-44a9-9739-565673cdec04")
 	)
 	(wire
 		(pts
@@ -8643,10 +8776,10 @@
 	)
 	(text "#define RG_GAMEPAD_ADC1_MAP {\\\n    {RG_KEY_UP,    ADC1_CHANNEL_6, ADC_ATTEN_DB_11, 3072, 4096},\\\n    {RG_KEY_DOWN,  ADC1_CHANNEL_6, ADC_ATTEN_DB_11, 1024, 3072},\\\n    {RG_KEY_LEFT,  ADC1_CHANNEL_5, ADC_ATTEN_DB_11, 3072, 4096},\\\n    {RG_KEY_RIGHT, ADC1_CHANNEL_5, ADC_ATTEN_DB_11, 1024, 3072},\\\n}\n#define RG_GAMEPAD_GPIO_MAP {\\\n    {RG_KEY_SELECT, GPIO_NUM_16, GPIO_PULLUP_ONLY, 0},\\\n    {RG_KEY_START,  GPIO_NUM_17, GPIO_PULLUP_ONLY, 0},\\\n    {RG_KEY_MENU,   GPIO_NUM_18, GPIO_PULLUP_ONLY, 0},\\\n    {RG_KEY_OPTION, GPIO_NUM_0,  GPIO_FLOATING,    0},\\\n    {RG_KEY_A,      GPIO_NUM_15, GPIO_PULLUP_ONLY, 0},\\\n    {RG_KEY_B,      GPIO_NUM_5,  GPIO_PULLUP_ONLY, 0},\\\n}\n\n// Battery\n#define RG_BATTERY_DRIVER           1\n#define RG_BATTERY_ADC_CHANNEL      ADC1_CHANNEL_3\n#define RG_BATTERY_CALC_PERCENT(raw) (((raw) * 2.f - 3500.f) / (4200.f - 3500.f) * 100.f)\n#define RG_BATTERY_CALC_VOLTAGE(raw) ((raw) * 2.f * 0.001f)\n\n// Status LED\n#define RG_GPIO_LED                 GPIO_NUM_38\n\n// SPI Display (back up working)\n#define RG_GPIO_LCD_MISO            GPIO_NUM_NC\n#define RG_GPIO_LCD_MOSI            GPIO_NUM_12\n#define RG_GPIO_LCD_CLK             GPIO_NUM_48\n#define RG_GPIO_LCD_CS              GPIO_NUM_NC\n#define RG_GPIO_LCD_DC              GPIO_NUM_47\n#define RG_GPIO_LCD_BCKL            GPIO_NUM_39\n#define RG_GPIO_LCD_RST             GPIO_NUM_3\n\n#define RG_GPIO_SDSPI_MISO          GPIO_NUM_9\n#define RG_GPIO_SDSPI_MOSI          GPIO_NUM_11\n#define RG_GPIO_SDSPI_CLK           GPIO_NUM_13\n#define RG_GPIO_SDSPI_CS            GPIO_NUM_10\n\n// External I2S DAC\n#define RG_GPIO_SND_I2S_BCK         41\n#define RG_GPIO_SND_I2S_WS          42\n#define RG_GPIO_SND_I2S_DATA        40\n// #define RG_GPIO_SND_AMP_ENABLE      18"
 		(exclude_from_sim no)
-		(at -26.035 151.765 0)
+		(at 12.065 162.56 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify left)
 		)
@@ -8860,7 +8993,7 @@
 		(uuid "1c5382c8-9a1b-4319-860a-367beaf44e7f")
 	)
 	(label "BAT+"
-		(at 38.1 91.44 0)
+		(at 40.64 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11397,9 +11530,9 @@
 		(at 267.97 40.64 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "214f1883-37e7-4a63-9b89-f15b9d001c10")
 		(property "Reference" "J2"
 			(at 259.08 33.02 0)
@@ -14394,6 +14527,98 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:MSK12CO2-SZ")
+		(at 40.64 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d10a18f-431a-49dd-8744-f1b285170497")
+		(property "Reference" "SW13"
+			(at 38.1 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MSK12CO2-SZ"
+			(at 38.1 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-TH_MSK12C02"
+			(at 40.64 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2681568"
+			(at 40.64 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d27eacc-b825-47a6-a400-f9adf2a2bdaa")
+		)
+		(pin "3"
+			(uuid "ac6c02fb-0205-4723-8457-24edb57c630c")
+		)
+		(pin "2"
+			(uuid "1f06a197-a267-46ce-8d0e-37e9b7025d0e")
+		)
+		(pin "4"
+			(uuid "413715fd-8f8e-48a6-9790-d82da811f4eb")
+		)
+		(pin "4"
+			(uuid "452a5d8c-c844-434e-896e-b1a5044c19dc")
+		)
+		(pin "4"
+			(uuid "5c71d3d7-9619-4d79-8324-c7ce39e10b1d")
+		)
+		(pin "4"
+			(uuid "5d691196-eaca-47cd-af91-c76676e27072")
+		)
+		(instances
+			(project ""
+				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 95.885 27.305 0)
 		(unit 1)
@@ -16506,106 +16731,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:K3-1290S-J1")
-		(at 38.1 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "afda49be-4c68-4e08-95a1-29714aca035d")
-		(property "Reference" "SW6"
-			(at 46.355 100.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "K3-1290S-J1"
-			(at 46.355 103.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SW-SMD_K3-1290S-J1"
-			(at 38.1 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Toggle-Switches_Korean-Hroparts-Elec-K3-1290S-J1_C223846.html"
-			(at 38.1 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C223846"
-			(at 38.1 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C223846"
-			(at 38.1 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SOURCED" "ok"
-			(at 38.1 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c4fdd1e4-8be2-4832-beae-045035f0940e")
-		)
-		(pin "3"
-			(uuid "5be19cff-d61b-4a46-a1b3-41dc3a2a4649")
-		)
-		(pin "1"
-			(uuid "ca5438d3-0729-4c4c-916b-ca5be5d05020")
-		)
-		(instances
-			(project ""
-				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
-					(reference "SW6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 142.24 27.305 0)
 		(unit 1)
@@ -16666,6 +16791,72 @@
 			(project "ILI9341_ESP32_GBC_V1"
 				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4276f81-18d3-44a5-b817-3e0ed9010c3e")
+		(property "Reference" "#PWR014"
+			(at 25.4 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb039ca0-f093-4a6d-97ce-39afab3f2ab4")
+		)
+		(instances
+			(project "ILI9341_ESP32_GBC"
+				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -19274,7 +19465,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2µ"
+		(property "Value" "10µ"
 			(at 69.215 54.0004 90)
 			(effects
 				(font
@@ -19309,7 +19500,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3002559"
+		(property "LCSC" "C39846645"
 			(at 69.215 56.515 0)
 			(effects
 				(font
@@ -20532,6 +20723,72 @@
 			(project "ILI9341_ESP32_GBC"
 				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
 					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa59bedb-80c8-45b6-9b40-3051775fdcc5")
+		(property "Reference" "#PWR010"
+			(at 50.8 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8108b67-dbe1-4365-bc9c-a9881c722527")
+		)
+		(instances
+			(project "ILI9341_ESP32_GBC"
+				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)

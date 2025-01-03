@@ -678,32 +678,28 @@
 				)
 			)
 		)
-		(symbol "Sensor_Optical:BPW40"
-			(pin_names
-				(offset 0) hide)
+		(symbol "easyeda2kicad:VSMB10940"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "U"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "BPW40"
-				(at 5.08 -1.27 0)
+			(property "Value" "VSMB10940"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
-				(at 12.192 -3.556 0)
+			(property "Footprint" "easyeda2kicad:LED-SMD_3P-L3.0-W1.0-FD"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -711,7 +707,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.rcscomponents.kiev.ua/datasheets/bpw40.pdf"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -720,7 +716,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Phototransistor NPN"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -729,8 +725,8 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "npn phototransistor"
-				(at 0 0 0)
+			(property "LCSC Part" "C4749241"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -738,129 +734,33 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED*D5.0mm*Clear*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BPW40_0_1"
-				(polyline
-					(pts
-						(xy -1.905 1.27) (xy -2.54 1.27)
-					)
+			(symbol "VSMB10940_0_1"
+				(rectangle
+					(start -2.54 5.08)
+					(end 2.54 -5.08)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -1.905 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -1.905 1.27) (xy -1.905 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 4.445) (xy -1.27 2.54) (xy -1.27 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type background)
 					)
 				)
 				(circle
-					(center 1.27 0)
-					(radius 2.8194)
+					(center -1.27 3.81)
+					(radius 0.38)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "BPW40_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+				(pin unspecified line
+					(at -5.08 2.54 0)
 					(length 2.54)
-					(name "C"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -875,10 +775,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -5.08 90)
+				(pin unspecified line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "E"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -886,6 +786,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1111,189 +1029,6 @@
 				)
 			)
 		)
-		(symbol "theBrutzler:ZIR034"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D7"
-				(at 0.1271 -2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "ZIR034"
-				(at -2.4129 -2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR204-A.pdf"
-				(at -1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Infrared LED , 3mm LED package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "opto IR LED"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*3.0mm*IRBlack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ZIR034_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 3.175) (xy -0.127 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.143 1.651) (xy 0.381 3.175) (xy 0.381 2.667)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -2.54 0) (xy 0 -1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.413 1.651) (xy -0.889 3.175) (xy -0.889 2.667) (xy -0.889 3.175) (xy -1.397 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ZIR034_1_1"
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 153.67 111.125)
@@ -1419,6 +1154,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.005 85.09) (xy 173.355 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f1603b-08b0-44f2-b8ce-90adb1aaa228")
+	)
+	(wire
+		(pts
 			(xy 133.985 102.87) (xy 132.715 102.87)
 		)
 		(stroke
@@ -1436,16 +1181,6 @@
 			(type default)
 		)
 		(uuid "36babf8a-c459-4cd0-875e-ef6bc2360cd0")
-	)
-	(wire
-		(pts
-			(xy 151.765 92.71) (xy 140.335 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40cb014e-5171-425a-9fa7-439c04e62773")
 	)
 	(wire
 		(pts
@@ -1479,6 +1214,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.005 87.63) (xy 175.895 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a2ca937-5a2a-44b5-83aa-7d5223be73e3")
+	)
+	(wire
+		(pts
 			(xy 133.985 111.125) (xy 133.985 102.87)
 		)
 		(stroke
@@ -1499,7 +1244,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.335 92.71) (xy 140.335 95.25)
+			(xy 140.335 90.17) (xy 140.335 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1519,13 +1264,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.195 92.71) (xy 173.355 92.71)
+			(xy 173.355 85.09) (xy 173.355 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86e99abc-f1f6-4708-adb9-a01a7f016748")
+		(uuid "8b02555f-cdba-4a80-a2d0-ddc4ac828561")
 	)
 	(wire
 		(pts
@@ -1579,6 +1324,26 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 81.28) (xy 138.43 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2393c77-a9ba-4ba6-ac6e-ec9888866ab1")
+	)
+	(wire
+		(pts
+			(xy 175.895 81.28) (xy 175.895 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ebe9b2-84f9-49ff-a8d2-175873f9500b")
+	)
+	(wire
+		(pts
 			(xy 168.91 113.665) (xy 170.815 113.665)
 		)
 		(stroke
@@ -1599,13 +1364,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.765 90.17) (xy 151.765 92.71)
+			(xy 140.335 90.17) (xy 146.05 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d021fcbc-7063-43a3-9226-c05a451f21a3")
+		(uuid "e77a26d3-f66a-436c-8414-50b721f7a43b")
 	)
 	(wire
 		(pts
@@ -1616,6 +1381,16 @@
 			(type default)
 		)
 		(uuid "eb006f96-8bb6-43c6-99be-90e733d5f017")
+	)
+	(wire
+		(pts
+			(xy 138.43 87.63) (xy 146.05 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc6fece-c26e-4708-8dfd-e61a3e711677")
 	)
 	(wire
 		(pts
@@ -1865,95 +1640,6 @@
 			(project "ILI9341_ESP32_GBC"
 				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce/3941cefe-a535-481d-8b9b-cd743233b5fa"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "theBrutzler:ZIR034")
-		(at 151.765 85.09 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "0a040dbe-90a2-4d6d-a044-c65031ea4c8f")
-		(property "Reference" "D7"
-			(at 149.225 84.9629 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ZIR034"
-			(at 149.225 87.5029 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TheBrutzlers_Lib:SIDE_LED_IR_3mm"
-			(at 156.21 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR204-A.pdf"
-			(at 151.765 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Infrared LED , 3mm LED package"
-			(at 151.765 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C575316"
-			(at 151.765 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SOURCED" "ok"
-			(at 151.765 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e6962c1-3a3c-4c0c-9965-2b671d658ced")
-		)
-		(pin "2"
-			(uuid "cd5cf833-a93e-485e-bf5c-a9c2e8977580")
-		)
-		(instances
-			(project "ILI9341_ESP32_GBC_V1"
-				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce/3941cefe-a535-481d-8b9b-cd743233b5fa"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -2395,7 +2081,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 151.765 82.55 0)
+		(at 138.43 81.28 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2404,7 +2090,7 @@
 		(dnp no)
 		(uuid "5ce806ce-9fd3-4160-b899-5ae8f73e9269")
 		(property "Reference" "#PWR042"
-			(at 151.765 86.36 0)
+			(at 138.43 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,7 +2099,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 154.305 78.74 0)
+			(at 140.97 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2422,7 +2108,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.765 82.55 0)
+			(at 138.43 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,7 +2117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.765 82.55 0)
+			(at 138.43 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2440,7 +2126,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 151.765 82.55 0)
+			(at 138.43 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3217,93 +2903,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Optical:BPW40")
-		(at 160.655 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "ac29c045-f862-4c7b-80a1-d9f285461045")
-		(property "Reference" "Q10"
-			(at 166.37 85.6106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "XYC-PT204B-L1"
-			(at 166.37 88.1506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TheBrutzlers_Lib:SIDE_LED_IR_3mm"
-			(at 172.847 91.186 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.rcscomponents.kiev.ua/datasheets/bpw40.pdf"
-			(at 160.655 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Phototransistor NPN"
-			(at 160.655 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C45857"
-			(at 160.655 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SOURCED" "ok"
-			(at 160.655 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85758679-7377-4e8f-925a-940458fef12d")
-		)
-		(pin "2"
-			(uuid "42bfe600-7d6f-4de0-94ad-bdfbbf95ae5a")
-		)
-		(instances
-			(project "ILI9341_ESP32_GBC_V1"
-				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce/3941cefe-a535-481d-8b9b-cd743233b5fa"
-					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 125.095 81.28 0)
 		(mirror y)
@@ -3543,7 +3142,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 163.195 82.55 0)
+		(at 175.895 81.28 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3552,7 +3151,7 @@
 		(dnp no)
 		(uuid "b70773b2-968b-45d1-a3e6-f3eb0cb91ea4")
 		(property "Reference" "#PWR018"
-			(at 163.195 86.36 0)
+			(at 175.895 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3561,7 +3160,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 165.735 78.74 0)
+			(at 178.435 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3570,7 +3169,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.195 82.55 0)
+			(at 175.895 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3579,7 +3178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.195 82.55 0)
+			(at 175.895 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3588,7 +3187,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 163.195 82.55 0)
+			(at 175.895 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3669,6 +3268,87 @@
 			(project "ILI9341_ESP32_GBC_V1"
 				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce/3941cefe-a535-481d-8b9b-cd743233b5fa"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:VSMB10940")
+		(at 151.13 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6a765ad-b018-4f40-9865-4f2a8f23ebc1")
+		(property "Reference" "U1"
+			(at 151.13 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VSMB10940"
+			(at 142.875 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_3P-L3.0-W1.0-FD"
+			(at 151.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C4749241"
+			(at 151.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41516480-97a3-4953-a466-94a92970f597")
+		)
+		(pin "3"
+			(uuid "19f0d87c-e79c-410c-9155-ccda5f785646")
+		)
+		(pin "2"
+			(uuid "ed46f1b8-99fd-4e69-986a-9562708db603")
+		)
+		(instances
+			(project ""
+				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce/3941cefe-a535-481d-8b9b-cd743233b5fa"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3888,6 +3568,87 @@
 			(project "ILI9341_ESP32_GBC_V1"
 				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce/3941cefe-a535-481d-8b9b-cd743233b5fa"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:VSMB10940")
+		(at 161.925 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfc62bfc-429d-485e-b226-b686e557f2ec")
+		(property "Reference" "U5"
+			(at 161.925 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PT12-21B/TR8"
+			(at 173.99 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_3P-L3.0-W1.0-FD"
+			(at 161.925 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.925 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.925 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C264383"
+			(at 161.925 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c8aba72-a123-4e1d-b22c-81cf1ad5b8fa")
+		)
+		(pin "3"
+			(uuid "44bf8195-4d8e-434c-bf1d-040e7b6df195")
+		)
+		(pin "2"
+			(uuid "bd0467be-973f-47ec-a246-783fe1f96aba")
+		)
+		(instances
+			(project "ILI9341_ESP32_GBC"
+				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce/3941cefe-a535-481d-8b9b-cd743233b5fa"
+					(reference "U5")
 					(unit 1)
 				)
 			)
