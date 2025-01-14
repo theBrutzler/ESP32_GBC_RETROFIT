@@ -63,12 +63,17 @@ bool rg_input_read_gamepad_raw(uint32_t *out)
     uint32_t state = 0;
 
 #if defined(RG_GAMEPAD_ADC1_MAP)
+static int oldValue[RG_COUNT(keymap_adc1)]; 
     for (size_t i = 0; i < RG_COUNT(keymap_adc1); ++i)
     {
         const rg_keymap_adc1_t *mapping = &keymap_adc1[i];
         int value = adc1_get_raw(mapping->channel);
         if (value > mapping->min && value < mapping->max)
-            state |= mapping->key;
+        {
+            if(((oldValue[i]>(value-150))&&(oldValue[i]<(value+150))))
+                state |= mapping->key; 
+            oldValue[i]=value;
+        }
     }
 #endif
 
@@ -203,7 +208,7 @@ static void input_task(void *arg)
             next_battery_update = rg_system_timer() + 2 * 1000000;
         }
 
-        rg_task_delay(10);
+        rg_task_delay(20);
     }
 
     input_task_running = false;

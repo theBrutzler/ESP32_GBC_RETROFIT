@@ -36,6 +36,8 @@ int sensorValue2 = 0;  // variable to store the value coming from the sensor
 int VBATValu = 0;  // variable to store the value coming from the sensor
 float VBATValu2 = 0;  // variable to store the value coming from the sensor
 float VBATPerc = 0;  // variable to store the value coming from the sensor
+int streifen = 0;
+bool war = true;
 
 void setup() {
   Serial.begin(115200);
@@ -60,7 +62,20 @@ void loop() {
   Serial.print("UP_DOWN:");
   Serial.print(sensorValue2);
   Serial.print(",");
+  Serial.print("streifen:");
+  Serial.print(streifen);
+  Serial.print(",");
   Serial.print("LEFT_RIGHT:");
   Serial.println(sensorValue1);
-  delay(20);
+  delay(10);
+  if(war==true)
+ { 
+    streifen = 2500;
+    war = false;
+ }
+  else
+  {
+    streifen = 0;
+    war = true;
+  }
 }
